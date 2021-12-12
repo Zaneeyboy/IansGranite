@@ -8,19 +8,25 @@
 
   --brand_Font:'Lora', serif;
   --brand_weight:600;
-  --brand_fontSize:1.4rem;
+  --brand_fontSize:1.2rem;
 
   --main_Font:'Noto Sans', sans-serif; 
   --main_weight:400;
   --main_emphasis_weight:700;
 
-  --navlink_font_size:1.1rem;
+  --navlink_font_size:1rem;
 
   --nav_padding:1.25% 7%;
 
-  --borders:6px;
+  --borders:4px;
 
-  --big_text:1.6rem;
+  --cta_big_text:2rem;
+  --cta_button_text:1.5rem;
+
+  --link_text:1.2rem;
+
+  /* Footer */
+  --footer-text:0.9rem;
 }
 
 a {
