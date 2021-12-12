@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
       <Links />
       <div className={styles.links}>
-        <p>©2022 Ian's Granite</p>
+        <p>©2022 Ian&apos Granite</p>
         <p className={styles.address}>
           #106 Bejucal Road, Cunupia, Trinidad. W.I.
         </p>
