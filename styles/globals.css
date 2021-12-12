@@ -1,9 +1,26 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&family=Noto+Sans:wght@400;700&display=swap');
+
+:root{
+
+  --main_color:#F0F5F9;
+  --secondary_color:#1E2022;
+  --emphasis_color:#FBD46D;
+
+  --brand_Font:'Lora', serif;
+  --brand_weight:600;
+  --brand_fontSize:1.4rem;
+
+  --main_Font:'Noto Sans', sans-serif; 
+  --main_weight:400;
+  --main_emphasis_weight:700;
+
+  --navlink_font_size:1.1rem;
+
+  --nav_padding:1.25% 7%;
+
+  --borders:6px;
+
+  --big_text:1.6rem;
 }
 
 a {
@@ -13,4 +30,16 @@ a {
 
 * {
   box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family:var(--brand_Font);
+  font-weight:var(--brand_weight);
+}
+
+p,span,i,a,div{
+  font-family:var(--main_Font);
+  font-weight:var(--main_weight);
 }

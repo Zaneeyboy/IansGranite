@@ -1,0 +1,43 @@
+.banner{
+    margin-top:8%;
+    margin-left:7%;
+    position:absolute;
+    z-index:1;
+}
+
+.lead{
+    background-color: var(--secondary_color);
+    border-radius:var(--borders);
+    
+      
+    opacity:0.9;
+    padding:2% 3%;
+    width:80%;
+}
+
+.lead>p{
+    color:var(--emphasis_color);
+    font-size:var(--big_text);
+    font-family: var(--main_Font);
+    font-weight:var(--main_weight);
+}
+
+.lead_cta_container{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+.lead_cta{
+    background-color:var(--emphasis_color);
+    border-radius:var(--borders);
+    font-size:var(--big_text);
+    padding:2% 1.5%;
+    transition: all 0.1s ease-in-out;
+    
+}
+
+.lead_cta:hover{
+    background-color: var(--secondary_color);
+    color:var(--emphasis_color);
+    
+}

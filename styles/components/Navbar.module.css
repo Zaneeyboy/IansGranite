@@ -1,0 +1,44 @@
+.navbar{
+    align-items: center;
+    background-color:var(--main_color);
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding:var(--nav_padding);
+}
+
+.navbar_brand{
+    border:2px solid var(--secondary_color);
+    color:var(--secondary_color);
+    font-size: var(--brand_fontSize);
+    font-family:var(--brand_Font);
+    padding:0.5rem;
+}
+
+.links{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navbar_link{
+    color:var(--secondary_color);
+    font-size:var(--navlink_font_size);
+    font-weight:var(--main_weight);
+    margin-left:0.5rem;
+    padding:0.5rem;
+}
+
+/* Hover Effects */
+.navbar_link::after{
+    display:block;
+    content:'';
+    width:0;
+    height:1.5px;
+    background:var(--secondary_color);
+    transition:width 0.3s;
+}
+
+.navbar_link:hover::after{
+    width:100%;
+}
