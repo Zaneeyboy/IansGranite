@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Navbar from "./Navbar.js";
-import Footer from "./Footer.js";
+import Navbar from "./Nav.js";
+import Footer from "./Foot.js";
 
 export const siteTitle = "Ian's Granite Installations";
 
