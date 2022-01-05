@@ -20,7 +20,7 @@
 
   --borders:4px;
 
-  --cta_big_text:2rem;
+  --cta_big_text:1.8rem;
   --cta_button_text:1.5rem;
 
   --link_text:1.2rem;
@@ -28,6 +28,7 @@
   /* Footer */
   --footer-text:0.9rem;
 }
+
 
 a {
   color: inherit;
@@ -41,7 +42,7 @@ a {
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-family:var(--brand_Font);
+  font-family:var(--main_Font);
   font-weight:var(--brand_weight);
 }
 

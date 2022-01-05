@@ -1,0 +1,30 @@
+.CTA{
+    color:var(--secondary_color);
+    background-color: var(--main_color);
+    padding:5% 7%;
+    border-radius:var(--borders);
+}
+
+.emphasis_text{
+    font-size:var(--cta_big_text);
+    font-weight: var(--main_emphasis_weight);
+    margin-bottom:4%;
+
+}
+
+.button{
+    padding:15px 70px;
+    transition:all 0.1s;
+    color:var(--main_color);
+    opacity:0.9;
+    background-color: var(--secondary_color);
+
+    border-radius:var(--borders);
+    font-size:var(--link_text);
+    font-weight:var(--main_weight);
+}
+
+.button:hover{
+    color:var(--emphasis_color);
+    opacity:1;
+}

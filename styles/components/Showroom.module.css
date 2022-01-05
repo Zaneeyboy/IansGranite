@@ -1,0 +1,31 @@
+.page_grid{
+    padding:5% 7%;
+    background-color: var(--secondary_color);
+    color:var(--main_color);
+}
+
+.page_title{
+    font-size:var(--cta_big_text);
+    font-weight:var(--main_emphasis_weight);
+    margin-bottom:1rem;
+}
+
+.lead{
+    font-size:var(--navlink_font_size);
+    font-weight:var(--main_weight);
+    width:60%;
+    margin-bottom:2.5%;
+}
+
+.section_title{
+    font-size:var(--cta_button_text);
+    font-weight:var(--main_emphasis_weight);
+    margin-bottom:2.5%;
+}
+
+.section_grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:1rem;
+    margin-bottom:5%;
+}

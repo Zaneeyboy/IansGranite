@@ -1,0 +1,39 @@
+.contact{
+    background-color: var(--secondary_color);
+    padding:5% 7%;
+}
+
+.container{
+    padding:5% 7%;
+    background-color: var(--main_color);
+    border-radius:var(--borders);
+}
+
+.page_title{
+    font-size:var(--cta_big_text);
+    font-weight:var(--main_emphasis_weight);
+    margin-bottom:3%;
+}
+
+.info_container{
+    display:flex;
+    flex-direction: column;
+}
+
+.info,.icon,.text{
+    font-size:var(--navlink_font_size);
+    font-weight:var(--main_weight);
+}
+
+
+.info{
+    margin-bottom:2%;
+    padding:1.25% 1%;
+    outline:2px solid var(--secondary_color);
+    border-radius:var(--borders);
+    width:30%;
+}
+
+.text{
+    margin-left:1rem;
+}

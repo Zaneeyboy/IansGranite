@@ -1,0 +1,41 @@
+.testimonials{
+    background-color:var(--secondary_color);
+    color:var(--main_color);
+    margin-top:-5px;
+    height:100%;
+    width:100%;
+}
+
+.heading{
+    font-size:var(--brand_fontSize); 
+    font-weight:var(--main_weight);
+    padding:3% 7%;   
+}
+
+.testimonial_box{
+    padding:0 7% 0 0;
+    display:flex;
+
+}
+
+.text{
+    width:40%;
+    margin-left:7%;
+    margin-top:4%;
+}
+
+.text>p{
+    width:90%;
+    font-size:var(--footer-text);
+}
+
+
+.name{
+    text-align: right;
+    margin-top:1rem;
+}
+
+.apostrophe{
+    font-weight:var(--main_emphasis_weight);
+    font-size:var(--cta_big_text);
+}

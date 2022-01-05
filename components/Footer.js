@@ -12,16 +12,14 @@ const Footer = () => {
         <Link href="/showroom">
           <a className={styles.navLink}>Showroom</a>
         </Link>
-        <Link href="/projects">
-          <a className={styles.navLink}>Projects</a>
-        </Link>
+
         <Link href="/contact">
           <a className={styles.navLink}>Contact Us</a>
         </Link>
       </div>
       <Links />
       <div className={styles.links}>
-        <p>©2022 Ian&apos Granite</p>
+        <p>©2022 Ian&apos;s Granite</p>
         <p className={styles.address}>
           #106 Bejucal Road, Cunupia, Trinidad. W.I.
         </p>
