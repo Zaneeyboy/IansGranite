@@ -27,6 +27,15 @@
 
   /* Footer */
   --footer-text:0.9rem;
+
+  --tablet-heading:1rem;
+  --tablet_p_text:0.8rem;
+
+  --mobile-heading:0.9rem;
+  --mobile-text:0.6rem;
+
+  --sm-mobile-heading:0.7rem;
+  --sm-mobile-text:0.5rem;
 }
 
 

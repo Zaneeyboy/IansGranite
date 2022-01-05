@@ -28,3 +28,37 @@
     color:var(--emphasis_color);
     opacity:1;
 }
+
+
+@media only screen and (max-width:950px)and(min-width:800px){
+    .emphasis_text{
+        font-size:var(--cta_button_text);
+    }
+
+    .button{
+        font-size:var(--tablet-heading);
+    }
+}
+
+
+@media only screen and (max-width:799px) and (min-width:450px){
+    .emphasis_text{
+        font-size:var(--tablet-heading);
+    }
+
+    .button{
+        font-size:var(--mobile-heading);
+        padding:10px 60px;
+    }
+}
+
+@media only screen and (max-width:449px) and (min-width:320px){
+.emphasis_text{
+        font-size:var(--mobile-heading);
+    }
+
+    .button{
+        font-size:var(--tablet_p_text);
+        padding:10px 50px;
+    }
+}

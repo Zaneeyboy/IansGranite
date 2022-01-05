@@ -8,7 +8,7 @@ export const siteTitle = "Ian's Granite Installations";
 
 const Layout = ({ children }) => {
   return (
-    <body>
+    <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
       <main>{children}</main>
 
       <Footer />
-    </body>
+    </>
   );
 };
 
