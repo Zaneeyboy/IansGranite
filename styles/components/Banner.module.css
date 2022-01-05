@@ -39,12 +39,12 @@
 
 .lead_cta:hover{
     background-color: var(--secondary_color);
-    color:var(--emphasis_color);
-    
+    color:var(--emphasis_color);   
 }
 
+
 .container{
-    padding:2% 1.5%;
+    padding:0.6% 1.5%;
     background-color: var(--secondary_color);
     display:inline-block;
     border-radius:var(--borders);
@@ -53,16 +53,20 @@
 }
 
 .link{
+    color:var(--main_color);
     padding:0.2rem;
     font-size:var(--link_text);
-    margin-right:0.3rem;transition:all 0.2s ease-in-out;
+    margin-right:0.3rem;
+    transition:all 0.2s ease-in-out;
+    border-radius: var(--borders);
 }
 
 .link:hover{
     color:var(--emphasis_color);
+    background-color: var(--secondary_color);
 }
 
-@media only screen and (max-width:950px) and(min-width:850px){
+@media only screen and (max-width:950px) and (min-width:650px){
     .lead>p{
         font-size:var(--link_text);
     }
@@ -73,43 +77,69 @@
 
     .link{
         font-size:var(--tablet_p_text);
+        padding:0.3rem;
     }
 }
 
-@media only screen and (max-width:849px) and(min-width:650px){
-    .lead>p{
+@media only screen and (max-width:649px) and (min-width:500px){
+ .lead>p{
         font-size:var(--tablet-heading);
     }
 
+    .lead_cta_container{
+    margin-top:3.5%;
+    margin-bottom:3.5%;
+}
+
     .lead_cta{
         font-size:var(--mobile-heading);
     }
 
     .link{
-        font-size:var(--mobile-text);
+        font-size:var(--sm-mobile-heading);
+        padding:0.1rem;
     }
+
 }
 
-@media only screen and (max-width:649px) and(min-width:450px){
- .lead>p{
-        font-size:var(--mobile-heading);
-        width:100%;
-    }
-
-    .lead_cta{
+@media only screen and (max-width:499px) and (min-width:430px){
+    .lead>p{
         font-size:var(--tablet_p_text);
     }
 
-    .link{
-        font-size:var(--mobile-text);
-    }
+    .lead_cta_container{
+    margin-top:3.5%;
+    margin-bottom:3.5%;
 }
 
-@media only screen and (max-width:450px) and(min-width:320px){
+    .lead_cta{
+        font-size:var(--sm-mobile-heading);
+    }
+
+
+    .link{
+        font-size:var(--mobile-text);
+        padding:0.1rem;
+    }
+
+}
+
+@media only screen and (max-width:429px) and (min-width:320px){
+    
+    .banner{
+        margin-top:5%;
+    }
+
+    .lead{width:90%;}
 
     .lead>p{
         font-size:var(--tablet_p_text);
     }
+
+    .lead_cta_container{
+    margin-top:2%;
+    margin-bottom:2%;
+}
 
     .lead_cta{
         font-size:var(--sm-mobile-heading);
@@ -117,5 +147,6 @@
 
     .link{
         font-size:var(--sm-mobile-text);
+        padding:0.1rem;
     }
 }
