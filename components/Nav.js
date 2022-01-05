@@ -1,4 +1,4 @@
-//jshint esversion: 6
+//jshint esversion: 9
 
 import Link from "next/link";
 import styles from "../styles/components/Navbar.module.css";

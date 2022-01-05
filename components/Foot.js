@@ -1,3 +1,5 @@
+//jshint esversion:9
+
 import Links from "./Links";
 import styles from "../styles/components/Footer.module.css";
 import Link from "next/link";

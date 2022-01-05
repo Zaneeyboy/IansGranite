@@ -1,3 +1,5 @@
+//jshint esversion:9
+
 import Head from "next/head";
 import Navbar from "./Nav.js";
 import Footer from "./Foot.js";
