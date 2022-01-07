@@ -138,7 +138,7 @@
 
     .lead_cta_container{
     margin-top:2%;
-    margin-bottom:2%;
+    margin-bottom:5%;
 }
 
     .lead_cta{
@@ -146,7 +146,7 @@
     }
 
     .link{
-        font-size:var(--sm-mobile-text);
-        padding:0.1rem;
+        font-size:var(--sm-mobile-heading);
+        padding:0.2rem;
     }
 }

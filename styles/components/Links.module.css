@@ -1,0 +1,43 @@
+.link:hover{
+    color:var(--emphasis_color);
+}
+
+
+@media only screen and (max-width:950px) and (min-width:800px){
+       .container{
+    margin:3% 0;
+}    
+
+.link{
+    margin-right:5%;
+    font-size:var(--mobile-heading);
+}
+
+}
+
+
+@media only screen and (max-width:799px) and (min-width:450px){
+       .container{
+    margin:3% 0;
+}    
+
+.link{
+    margin-right:5%;
+    font-size:var(--mobile-heading);
+}
+}
+
+
+
+
+
+@media only screen and (max-width:449px) and (min-width:320px){
+    .container{
+    margin:3% 0;
+}    
+
+.link{
+    margin-right:5%;
+    font-size:var(--mobile-heading);
+}
+}
